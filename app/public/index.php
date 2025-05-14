@@ -1,6 +1,6 @@
 <?php
 declare(strict_types=1);
-$title = "Hello world";
+$title = "Modern Kitchen";
 
 // phpinfo();
 
@@ -19,12 +19,12 @@ $title = "Hello world";
 
     <?php
     include "includes/header.php";
+
     ?>
 
-    <h1><?= $title ?></h1>
+        <?php
+    include "includes/startsida.php";
 
-    <?php
-    include "includes/nav.php";
     ?>
 
 </body>
